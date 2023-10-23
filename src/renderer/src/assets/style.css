@@ -1,7 +1,30 @@
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 100 1000;
+  font-display: fallback;
+  src: url(./PlusJakartaSans-VF.ttf) format('truetype');
+}
+
+:root {
+  --color-common-white: #ffffff;
+  --color-noble-black-100: #e8e9e9;
+  --color-noble-black-200: #cdcecf;
+  --color-noble-black-300: #9b9c9e;
+
+  --color-noble-black-400: #686b6e;
+  --color-noble-black-500: #363a3d;
+  --color-noble-black-600: #1a1d21;
+
+  --color-noble-black-700: #131619;
+  --color-noble-black-800: #0d0f10;
+  --color-noble-black-900: #060708;
+}
+
 body {
   display: flex;
   flex-direction: column;
   font-family:
+    'Plus Jakarta Sans',
     Roboto,
     -apple-system,
     BlinkMacSystemFont,
@@ -12,43 +35,10 @@ body {
     'Cantarell',
     'Open Sans',
     sans-serif;
-  color: #86a5b1;
-  background-color: #2f3241;
+  background-color: var(--color-noble-black-700);
 }
 
 * {
   padding: 0;
   margin: 0;
-}
-
-ul {
-  list-style: none;
-}
-
-code {
-  font-weight: 600;
-  padding: 3px 5px;
-  border-radius: 2px;
-  background-color: #26282e;
-  font-family:
-    ui-monospace,
-    SFMono-Regular,
-    SF Mono,
-    Menlo,
-    Consolas,
-    Liberation Mono,
-    monospace;
-  font-size: 85%;
-}
-
-a {
-  color: #9feaf9;
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: none;
-  outline: none;
-}
-
-a:hover {
-  border-bottom: 1px solid;
 }

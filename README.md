@@ -1,4 +1,4 @@
-# aibridge
+# AIBridge
 
 An Electron application with Svelte and TypeScript
 

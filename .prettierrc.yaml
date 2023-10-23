@@ -1,7 +1,14 @@
+# editorconfig: true
 singleQuote: true
-semi: false
+semi: true
+useTabs: false
 printWidth: 100
-trailingComma: none
+trailingComma: es5
+endOfLine: lf
+arrowParens: avoid
+bracketSpacing: true
+bracketSameLine: true
+htmlWhitespaceSensitivity: ignore
 plugins:
   - prettier-plugin-svelte
 overrides:
